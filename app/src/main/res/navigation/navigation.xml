@@ -3,6 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    tools:ignore="UnusedNavigation">
+    tools:ignore="UnusedNavigation"
+    app:startDestination="@id/aboutFragment">
 
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.fristappnew.AboutFragment"
+        android:label="about_fragment"
+        tools:layout="@layout/about_fragment" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.fristappnew.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/comtectFragment"
+        android:name="com.example.fristappnew.ComtectFragment"
+        android:label="comtect_fragment"
+        tools:layout="@layout/comtect_fragment" />
+    <fragment
+        android:id="@+id/addnameFragment"
+        android:name="com.example.fristappnew.AddnameFragment"
+        android:label="addname_fragment"
+        tools:layout="@layout/addname_fragment" />
 </navigation>
