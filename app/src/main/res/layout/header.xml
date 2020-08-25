@@ -3,8 +3,33 @@
     android:layout_width="match_parent"
     android:layout_height="180dp"
     android:orientation="vertical"
-    android:background="@color/cardview_dark_background"
+    android:background="@drawable/photofade"
     android:padding="16dp">
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="@dimen/dp20"
+        android:background="@drawable/header"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dododesign"
+        android:textAlignment="textStart"
+        android:textColor="@color/write"
+        android:textSize="@dimen/dp20" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/theerasak_putklang"
+        android:textAlignment="viewStart"
+        android:textColor="@color/write"
+        android:textSize="@dimen/dp20" />
+
 
 
 </LinearLayout>
