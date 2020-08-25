@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FristAppNew</string>
+    <string name="home">Home</string>
+    <string name="AboutMe">aboutme</string>
+    <string name="Contect">contect</string>
+    <string name="AddName">addname</string>
 </resources>
